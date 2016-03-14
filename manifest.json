@@ -1,0 +1,20 @@
+{
+	"name" : "二维码生成器",
+	"version" : "1.0",
+	"description" : "二维码生成器",
+	"manifest_version" : 2,
+	"icons": {
+        "16": "images/code.png",
+        "48": "images/code.png",
+        "128": "images/code.png"
+    },
+	"permissions" : ["tabs","https://*/*","http://*/*"],
+	"background" : {
+		"scripts" : ["js/js.js"]
+	},
+	"page_action" : {
+		"default_icon" : "images/ico.png",
+		"default_title" : "二维码生成器",
+		"default_popup" : "popup.html"
+	}
+}
